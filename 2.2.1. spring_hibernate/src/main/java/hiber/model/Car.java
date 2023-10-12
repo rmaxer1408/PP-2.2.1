@@ -10,10 +10,6 @@ public class Car {
     @Column(name = "id")
     private Long id;
 
-    @OneToOne
-    @JoinColumn(name = "id")
-    private User user;
-
     @Column(name = "model")
     private String model;
     @Column(name = "series")
